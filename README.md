@@ -1,4 +1,5 @@
 # Weather Query MCP Server/Client Example
+[![smithery badge](https://smithery.ai/badge/@eternachen/mcp-playground)](https://smithery.ai/install/@eternachen/mcp-playground)
 
 This project is a weather query client that interacts with an MCP (Model-Client-Protocol) server to fetch and display weather information for a specified city.
 
@@ -17,6 +18,15 @@ This project is a weather query client that interacts with an MCP (Model-Client-
 
 ## Setup
 
+### Installing via Smithery
+
+To install Weather Query Server/Client for Claude Desktop automatically via [Smithery](https://smithery.ai/install/@eternachen/mcp-playground):
+
+```bash
+npx -y @smithery/cli install @eternachen/mcp-playground --client claude
+```
+
+### Manual Installation
 1. Clone the repository:
     ```sh
     git clone <repository_url>
